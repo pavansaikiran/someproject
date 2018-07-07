@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="75dp"
+    tools:context=".listitem">
+
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="70dp"
+        android:layout_height="65dp"
+        android:layout_marginLeft="5dp"
+        android:layout_marginTop="5dp"
+        />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:layout_alignTop="@+id/imageView"
+
+        android:layout_marginStart="84dp"
+        android:layout_marginTop="3dp"
+        android:text="Contact name"
+        android:textColor="@android:color/black"
+        android:textSize="10dp" />
+
+    <LinearLayout
+        android:layout_width="32dp"
+        android:layout_height="16dp"
+        android:id="@+id/ll"
+        android:layout_alignParentStart="true"
+        android:layout_centerVertical="true"
+        android:layout_marginStart="84dp"
+        android:background="@drawable/roundpink">
+
+        <ImageView
+            android:layout_width="12dp"
+            android:layout_height="12dp"
+            android:layout_marginLeft="2dp"
+            android:layout_marginTop="2dp"
+
+            android:src="@drawable/gender" />
+
+        <TextView
+            android:layout_width="12dp"
+            android:layout_height="12dp"
+            android:layout_marginLeft="4dp"
+            android:layout_marginTop="2dp"
+            android:text="22"
+            android:textColor="#FFFFFF"
+            android:textSize="8sp" />
+    </LinearLayout>
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="12dp"
+        android:layout_below="@id/ll"
+        android:layout_marginTop="11dp"
+        android:layout_marginLeft="82dp"
+        android:src="@drawable/down" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:layout_below="@id/ll"
+        android:layout_marginLeft="98dp"
+        android:layout_marginTop="11dp"
+
+        android:text="TextView"
+        android:textColor="@android:color/black"
+        android:textSize="9sp"
+        android:maxLines="1"
+        tools:text="this message is deleted" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="7dp"
+        android:layout_marginEnd="15dp"
+        android:text=">229m/s"
+        android:textColor="@android:color/black"
+        android:textSize="9dp" />
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="12dp"
+        android:layout_height="12dp"
+        android:layout_alignEnd="@+id/textView4"
+        android:src="@drawable/fb"
+        android:layout_centerVertical="true" />
+    <ImageView
+        android:id="@+id/imageView3"
+        android:src="@drawable/fb"
+        android:layout_marginRight="3dp"
+        android:layout_toLeftOf="@id/imageView2"
+        android:layout_width="12dp"
+        android:layout_height="12dp"
+
+        android:layout_centerVertical="true" />
+    <ImageView
+        android:id="@+id/imageView4"
+        android:layout_width="12dp"
+        android:src="@drawable/fb"
+        android:layout_marginRight="3dp"
+        android:layout_height="12dp"
+        android:layout_toLeftOf="@id/imageView3"
+        android:layout_centerVertical="true" />
+    <ImageView
+        android:id="@+id/imageView5"
+        android:layout_width="12dp"
+        android:src="@drawable/fb"
+        android:layout_height="12dp"
+        android:layout_marginRight="3dp"
+        android:layout_toLeftOf="@id/imageView4"
+        android:layout_centerVertical="true" />
+    <ImageView
+        android:id="@+id/imageView6"
+        android:layout_width="12dp"
+        android:src="@drawable/fb"
+        android:layout_marginRight="3dp"
+        android:layout_height="12dp"
+        android:layout_toLeftOf="@id/imageView5"
+        android:layout_centerVertical="true" />
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/imageView4"
+        android:layout_marginTop="15dp"
+        android:layout_alignStart="@+id/textView4"
+        android:text="3/9/2008"
+        android:textColor="@android:color/black"
+        android:textSize="8sp" />
+
+</RelativeLayout>
